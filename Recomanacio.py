@@ -47,7 +47,8 @@ class Recomanacio(metaclass=ABCMeta):
             while res == 'si':
                 try:
                     print('\n--------------------------------------------------------------\n')
-                    num_recomanacio = int(input('En total hi ha ' + str(len(recomanacions)) + ' recomanacions. Quants ítems vols que et recomanem? '))
+                    num_recomanacio = int(input('En total hi ha ' + str(len(recomanacions)) + ' recomanacions. 
+                        'Quants ítems vols que et recomanem? '))
                     print('\n--------------------------------------------------------------\n')
                     print('Les recomanacions són:\n')
                     for i in range(num_recomanacio):
