@@ -64,7 +64,8 @@ class Book(Items):
         self._any_publicacio = any_publicacio
     
     def __str__(self):
-        return 'Book ISBN: ' + str(self._isbn) + '\nTitle: ' + self._title + '\nAutor: ' + self._autor + '\nAny publicacio: ' + str(self._any_publicacio)
+        return 'Book ISBN: ' + str(self._isbn) + '\nTitle: ' + self._title + '\nAutor: ' + self._autor + '\nAny publicacio:' 
+                + str(self._any_publicacio)
         
     @property
     def isbn(self):
