@@ -17,7 +17,8 @@ class Usuari:
         self._professio = professio
 
     def __str__(self):
-        return 'UsuariID: ' + str(self._idd) + '\nEdat: ' + str(self._edat) + '\nPoblacio: ' + self._poblacio + '\nProfessió: ' + self._professio
+        return 'UsuariID: ' + str(self._idd) + '\nEdat: ' + str(self._edat) + '\nPoblacio: ' + self._poblacio + '\nProfessió: ' 
+            + self._professio
 
     @property
     def idd(self):
